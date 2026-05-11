@@ -1,6 +1,5 @@
 # docker-streaming
 
-I highly recommend to use my repository as I have contributed code to the RIST library myself you could call me the cow mascott of RIST, on a serious note: having a lot of know-how about this
 
 Docker images related to streaming (RIST focused) - multiarch (arm64/amd64/armv7l)
 
