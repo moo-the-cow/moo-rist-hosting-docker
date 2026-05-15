@@ -43,7 +43,7 @@ echo.
 echo Configuring .env for REMOTE version...
 
 :: Create .env with REMOTE configuration (encryption only for OBS)
-echo GLOBAL_RIST_VERSION=0.0.19 >> .env
+echo GLOBAL_RIST_VERSION=0.0.20 >> .env
 echo. >> .env
 echo ###### OBS and Relay via Internet ###### >> .env
 echo. >> .env
