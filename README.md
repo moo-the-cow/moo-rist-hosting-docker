@@ -13,10 +13,10 @@ IRLBOX is using RIST BONDING and an advanced adaptive bitrate algorithm on top o
 
 **related project:** [Native RIST Setup](https://github.com/moo-the-cow/moo-rist-hosting-native) 
 
-**Current version docker:** `0.0.21` ⚠️Please update to this version if you use an earlier one, there has been a critical update by the author
+**Current version docker:** `0.0.22` ⚠️Please update to 0.0.21 or higher version if you use an earlier one, there has been a critical update by the author
 
 
-**libRIST library:** `0.2.15` **API version:** `4.7.0`
+**libRIST library:** `0.2.15-42-g56b7c3b` **API version:** `4.7.0`
 
 ## Quick Start
 
