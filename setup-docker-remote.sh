@@ -46,7 +46,7 @@ echo "Configuring .env for REMOTE version..."
 
 # Create .env with REMOTE configuration (encryption only for OBS)
 cat > .env << EOL
-GLOBAL_RIST_VERSION=0.0.24
+GLOBAL_RIST_VERSION=0.0.25
 
 ###### OBS and Relay via Internet ######
 
