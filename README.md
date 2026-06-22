@@ -47,7 +47,7 @@ double click the `setup-docker-home.bat` file
 ---
 ## Manual Setup
 
-modify `.env` for username and password
+modify `.env` for username and password and rist profile (default is "main" = 1, "advanced" = 2)
 
 Please check out the Comments inside the .env file there is a setup for HOME-NETWORK and for REMOTE-RELAY
 

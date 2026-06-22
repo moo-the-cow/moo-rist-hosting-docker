@@ -14,7 +14,7 @@ services:
     ports:
       - '2030:2030/udp'
       - '2031:2031/udp'
-    command: ristreceiver -i 'rist://@moo-rist:2030?rtt-min=100${RIST_AUTHARGUMENTS}' -o 'rist://moo-rist-forwarder:12345' -r 'moo-rist-stats:5005' -p 1
+    command: ristreceiver -i 'rist://@moo-rist:2030?rtt-min=100${RIST_AUTHARGUMENTS}' -o 'rist://moo-rist-forwarder:12345' -r 'moo-rist-stats:5005' -p ${RIST_PROFILE}
     depends_on:
       - "moo-rist-stats"
       - "moo-rist-forwarder"
@@ -32,7 +32,7 @@ services:
       - moo-net
     ports:
       - '5556:5556/udp'
-    command: ristsender -v -1 -i 'udp://@moo-rist-forwarder:12345' -o 'rist://@moo-rist-forwarder:5556?cname=moo-rist-relay${RIST_AUTHARGUMENTS_FORWARDER}' -p 1
+    command: ristsender -v -1 -i 'udp://@moo-rist-forwarder:12345' -o 'rist://@moo-rist-forwarder:5556?cname=moo-rist-relay${RIST_AUTHARGUMENTS_FORWARDER}' -p ${RIST_PROFILE}
   moo-rist-stats:
     image: moothecow/moo-rist-stats:${GLOBAL_RIST_VERSION}
     container_name: moo-rist-stats

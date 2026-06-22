@@ -40,6 +40,7 @@ echo ##### Home network setup ####### >> .env
 echo. >> .env
 echo RIST_AUTHARGUMENTS="&username=!USERNAME!&password=!PASSWORD!" >> .env
 echo RIST_AUTHARGUMENTS_FORWARDER= >> .env
+echo RIST_PROFILE=1 >> .env
 
 echo.
 echo HOME Version Configuration Complete!
