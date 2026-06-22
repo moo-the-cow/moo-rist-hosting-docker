@@ -1,4 +1,4 @@
-# Docker images for IRL streaming using RIST receivers - multiarch (arm64/amd64)
+# Docker images for IRL streaming using RIST receivers - multiarch (arm64/amd64/armv7l)
 
 Docker images related to streaming (RIST focused) - multiarch (arm64/amd64/armv7l)
 
