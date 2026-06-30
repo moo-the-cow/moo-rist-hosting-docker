@@ -73,7 +73,7 @@ you only need encryption between OBS and the FORWARDER (NOT the RECEIVER) IF you
 Create a MediaSource Item and uncheck "local"
 
 ### HOME NETWORK
-put `rist://[RELAY_IP]:[RELAY_PORT]?cname=irlbox` into Input
+put `rist://[RELAY_IP]:[RELAY_PORT]?cname=irlbox&buffer=1800` into Input
 
 ### REMOTE RELAY
 put `rist://[RELAY_IP]:[RELAY_PORT]?cname=irlbox&aes-type=128&secret=[YOUR_VERY_LOG_SECRET_HASH]` into Input
