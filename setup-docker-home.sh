@@ -37,7 +37,7 @@ echo "Configuring .env for HOME version..."
 
 # Create .env with HOME configuration only (username/password, no encryption)
 cat > .env << EOL
-GLOBAL_RIST_VERSION=0.0.34
+GLOBAL_RIST_VERSION=0.0.35
 
 ##### Home network setup #######
 
