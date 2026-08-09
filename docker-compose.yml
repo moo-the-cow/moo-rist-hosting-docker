@@ -14,7 +14,7 @@ services:
     ports:
       - '2030:2030/udp'
       - '2031:2031/udp'
-    command: ristreceiver -v 6 -b 1800 -i 'rist://@moo-rist:2030?rtt-min=100${RIST_AUTHARGUMENTS}' -o 'rist://moo-rist-forwarder:12345' -r 'moo-rist-stats:5005' -p ${RIST_PROFILE}
+    command: ristreceiver -v 6 -b 1800 -i 'rist://@moo-rist:2030?rtt-min=70&rtt-max=1200${RIST_AUTHARGUMENTS}' -o 'rist://moo-rist-forwarder:12345' -r 'moo-rist-stats:5005' -p ${RIST_PROFILE}
     depends_on:
       - "moo-rist-stats"
       - "moo-rist-forwarder"
