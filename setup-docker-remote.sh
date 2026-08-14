@@ -51,7 +51,7 @@ GLOBAL_RIST_VERSION=0.0.35
 ###### OBS and Relay via Internet ######
 
 RIST_AUTHARGUMENTS="&username=${USERNAME}&password=${PASSWORD}"
-RIST_AUTHARGUMENTS_FORWARDER="aes-type=128&secret=${SECRET}"
+RIST_AUTHARGUMENTS_FORWARDER="&aes-type=128&secret=${SECRET}"
 RIST_PROFILE=1
 EOL
 
