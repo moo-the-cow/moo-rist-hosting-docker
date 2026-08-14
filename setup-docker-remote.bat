@@ -48,7 +48,7 @@ echo. >> .env
 echo ###### OBS and Relay via Internet ###### >> .env
 echo. >> .env
 echo RIST_AUTHARGUMENTS="&username=!USERNAME!&password=!PASSWORD!" >> .env
-echo RIST_AUTHARGUMENTS_FORWARDER="aes-type=128&secret=!SECRET!" >> .env
+echo RIST_AUTHARGUMENTS_FORWARDER="&aes-type=128&secret=!SECRET!" >> .env
 echo RIST_PROFILE=1 >> .env
 
 echo.
