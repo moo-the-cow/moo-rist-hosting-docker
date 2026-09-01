@@ -6,7 +6,7 @@ recently added armv7l support for rasperry pi 2 (32bit)
 
 you can contact the developer on discord: https://discord.gg/khTtNJjFBY
 
-RIST is supported on IRLBOX and IRLWHATEVER (android app)
+RIST is supported on IRLBOX and IRLWHATEVER (android app) => https://irlwhatever.com/
 
 https://play.google.com/store/apps/details?id=com.irlwhatever.app&hl=en
 
