@@ -6,6 +6,11 @@ recently added armv7l support for rasperry pi 2 (32bit)
 
 you can contact the developer on discord: https://discord.gg/khTtNJjFBY
 
+RIST is supported on IRLBOX and IRLWHATEVER (android app)
+
+https://play.google.com/store/apps/details?id=com.irlwhatever.app&hl=en
+
+
 also check out the streaming board documentation on: https://irlbox.com/
 
 IRLBOX is using RIST BONDING and an advanced adaptive bitrate algorithm on top of the RIST integrated one
