@@ -33,7 +33,7 @@ docker must be running on that machine
 get the project files into a folder
 ```
 git clone https://github.com/moo-the-cow/moo-rist-hosting-docker
-cd docker-streaming
+cd moo-rist-hosting-docker
 docker compose up -d
 ```
 
